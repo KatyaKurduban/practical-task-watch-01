@@ -59,3 +59,125 @@ ol {
 }
 .header-social-link {
 }
+
+/*Main*/
+.main-title {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.87;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.main-title-span {
+  color: #3350e9;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.hero-scroll-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+}
+
+.hero-scroll-link:hover,
+.hero-scroll-link:focus {
+  color: #3350E9;
+}
+
+/*Catalog*/
+.catalog-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.catalog-list-item {
+  background: #f3f3f3;
+}
+
+.catalog-list-item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.catalog-list-item-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+/*Footer*/
+.footer-logo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0,02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fbfbfb;;
+}
+
+.footer-text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.tel:hover,
+.tel:focus {
+  color: #0c0c0c;
+  background-color: #fbfbfb;
+}
+
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28
+  color: #fbfbfb;
+}
+
+.footer-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
+  font-style: normal;
+}
+
+.footer-list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
