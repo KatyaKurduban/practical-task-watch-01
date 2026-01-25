@@ -124,6 +124,48 @@ ol {
   color: rgba(12, 12, 12, 0.5);
 }
 
+/*Sale*/
+.sale-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.sale-list-item,
+.sale-img {
+  background-color: #F3F3F3;  
+}
+
+.product-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.product-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+.product-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+}
+.product-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
+}
+
 /*Footer*/
 .footer-logo {
   font-weight: 500;
@@ -163,7 +205,6 @@ ol {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28
-  color: #fbfbfb;
 }
 
 .footer-address {
