@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
+      <div class="container">
       <a class="header-logo" href="./index.html">watchcharm</a>
 
       <nav>
-        <ul>
+        <ul class="header-nav-list">
           <li><a class="header-nav-link" href="">Home</a></li>
           <li><a class="header-nav-link" href="">About Us</a></li>
           <li><a class="header-nav-link" href="">Catalog</a></li>
@@ -60,10 +61,14 @@
           </a>
         </li>
       </ul>
+      </div>
     </header>
 
      <main>
         <section class="hero-section">
+          <div class="container">
+            <div class="hero-main-wrapper">
+            <div class="hero-title-wrapper">
             <h1 class="main-title">Welcome to our 
               <span class="main-title-span">collection</span> 
               of premium watches
@@ -71,6 +76,9 @@
             <p class="hero-text">
                 Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic designs to modern ones, we have a watch to suit every taste and occasion.
             </p>
+            </div>
+
+            <div class="hero-img-wrapper">
             <img 
                 src="./images/hero-section-founders.jpg" 
                 alt="Founders"
@@ -78,12 +86,16 @@
                 height="60"
             />
             <a href="#" class="hero-scroll-link">Scroll down</a>
+            </div>
+            </div>
+
             <img 
                 src="./images/hero-main-img.jpg" 
                 alt="Watch"
                 width="1150"
                 height="500"
             />
+            </div>
         </section>
 
         <section class="catalog-section">
