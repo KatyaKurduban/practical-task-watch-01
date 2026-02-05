@@ -228,16 +228,24 @@ img {
 }
 
 .catalog-list-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
   padding: 24px 32px;
+  width: calc((100% - 2 * 23px) / 3);
   background: #f3f3f3;
 }
 
 .catalog-list-item-name {
+  margin-top: 10px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .catalog-list-item-price {
@@ -255,11 +263,58 @@ img {
   line-height: 0.91;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 40px;
 }
 
-.sale-list-item,
-.sale-img {
-  background-color: #F3F3F3;  
+.sale-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.sale-list-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sale-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sale-list-item {
+  background-color: #F3F3F3;
+  width: 132px;
+  height: 132px;
+  padding: 16px 18px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 20px;
+}
+
+.sale-img-wrapper {
+  background: #f3f3f3;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 50px;
+  width: 428px;
+  height: 558px;
+  display: flex;
+  padding: 80px 50px;
+}
+
+.product-wrapper {
+  background: #3350e9;
+  border-radius: 50px;
+  width: 530px;
+  height: 558px;
+}
+
+.product-info-wrapper {
+  display: block;
+  padding-top: 60px;
+  padding-right: 81px;
+  padding-left: 60px;
 }
 
 .product-title {
@@ -268,21 +323,32 @@ img {
   line-height: 1.12;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  width: 389px;
+  display: block;
+  padding-bottom: 10px;
 }
+
 .product-tag {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.5);
+  display: block;
+  padding-bottom: 20px;
 }
+
 .product-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
+  width: 410px;
+  display: block;
+  padding-bottom: 40px;
 }
+
 .product-list {
   font-weight: 500;
   font-size: 14px;
