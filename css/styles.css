@@ -167,7 +167,10 @@ img {
   border-radius: 50px;
   padding: 80px 60px;
 }
-.about-title {
+.about-title,
+.catalog-title, 
+.sale-title,
+.contacts-title {
   font-weight: 600;
   font-size: 48px;
   line-height: 0.91;
@@ -212,15 +215,6 @@ img {
   padding: 50px 0;
 }
 
-.catalog-title {
-  margin-bottom: 40px;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 0.91;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
-}
-
 .catalog-list {
   display: flex;
   flex-wrap: wrap;
@@ -258,14 +252,8 @@ img {
 
 /*Sale*/
 .sale-title {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 0.91;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
   display: block;
   margin-top: 100px;
-  margin-bottom: 40px;
 }
 
 .sale-wrapper {
