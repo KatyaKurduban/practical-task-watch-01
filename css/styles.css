@@ -78,26 +78,66 @@ button {
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
+
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .header-nav-link {
   padding: 30px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
   color: #0c0c0c;
-  display: block;
-}
-.header-social-list {
-  display: flex;
-  gap: 10px;
-}
-.header-social-item {
-}
-.header-social-link {
+  display: inline-block;
+  position: relative;
 }
 
-.header-nav-list {
+/* .icon-ellipse {
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  fill: #3350E9;
+} */
+
+.header-nav-link.current::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #3350E9;
+  border-radius: 50%; 
+}
+
+.header-social-list {
   display: flex;
-  gap: 40px;
+  gap: 8px;
+}
+
+.header-social-item {
+  border: 1px solid rgba(12, 12, 12, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.icon-social {
+  opacity: 0.8;
+}
+
+.icon-social.instagram {
+  fill: #0c0c0c;
+  stroke-width: 1px;
+  stroke: #000;
 }
 
 /*Main*/
@@ -257,7 +297,8 @@ button {
 }
 
 /*Sale*/
-.sale-title {
+.sale-title,
+.contacts-title {
   display: block;
   margin-top: 100px;
 }
